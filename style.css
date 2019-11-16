@@ -1,0 +1,122 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700i|Montserrat:400,700,900&display=swap');
+
+
+/* Generic Design : fonts and colors */
+
+body {
+  font-family:Lora, serif;
+  font-weight:400;
+  color:#494949;
+  font-size:18px;
+  background-color: white;
+  line-height:28px;
+  margin:0;
+}
+
+h1 {
+  font-family:Montserrat, sans-serif;
+  font-size:38px;
+  line-height:60px;
+  color:white;
+  font-weight:700;
+  text-shadow:0 10px 30px rgba(0, 0, 0, .1)
+}
+
+h2 {
+  font-family:Montserrat, sans-serif;
+  font-size:27px;
+  line-height:43px;
+  color:#A0A0A0;
+  font-weight:400;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom Design : class */
+
+.banner {
+  background-image:url('https://source.unsplash.com/random');
+  height: 500px;
+  background-size:cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ .banner p {
+  font-family:Lora, sans-serif;
+  font-size:30px;
+  line-height:48px;
+  color:rgba(255, 255, 255, .7);
+  font-weight:400i;
+  text-shadow:0 10px 30px rgba(0, 0, 0, .1);
+  font-style: italic;
+ }
+
+.container {
+  width:700px;
+  margin:50px auto;
+}
+
+.btn-highlighted {
+  font-family:Lora, sans-serif;
+  font-size:25px;
+  line-height:40px;
+  color:#636363;
+  font-weight:400i;
+  font-style:italic;
+  background-color:#E1F7E9;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+.btn-highlighted:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+
+/* Media Queries */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width:1200px) {
+  .container {
+    width: 700px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .container {
+    width: 624px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .container {
+    width: 460px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .container {
+    width: 320px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
